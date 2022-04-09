@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.bg{
+    background-color: #E0FBFC;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.myinput{
+    outline: none;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+}
+.icon{
+    background-color: white;
+    padding: 9px 2px 12px 8px;
+    font-size: 22px;
+}
+@media only screen and (max-width: 600px) {
+    .icon{
+        padding: 13px 2px 12px 8px;  
+    }
+}
+.plus{
+    color: #6C757D;
+    background-color: white;
+    font-size: 27px;
+    padding: 9px 12px 11px 10px;
+    border: none;
+}
+.result{
+    background-color: #3D5A80;
+    padding: 10px 20px;
+    width: 290px;
+    margin-top: 15px;
+    color: white;
+    text-align: left;
+    border-radius: 10px 0% 0% 10px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .result{
+        width: 200px;
+    }
+}
+
+.center{
+    margin-left: 36.3%;
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .center{
+        margin-left: 10px;
+    }
+}
+.pen{
+    width: 80px;
+}
+.minus{
+    background-color: #3D5A80;
+    border: none;
+    color: white;
+    
+}
+.display{
+    float: left;
+}
+.trash{
+    margin-top: 15px;
+    padding:10px 8px 5px 0px;
+    color: white;
+    
+    background-color: #3D5A80;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.trash-btn{
+    font-size: 18px;
+    background-color: #3D5A80;
+    outline: none;
+    border: none;
+    color: white;
+}
+.remove{
+    margin-top: 1.5%;
+    background-color: #E0FBFC;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #6BDDB3;
+}
+.remove:hover{
+    background-color: #6BDDB3;
+    border: 1px solid #6BDDB3;
+}
